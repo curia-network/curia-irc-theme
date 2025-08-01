@@ -1,42 +1,44 @@
 @font-face {
   font-family: "Classic Console FA";
-  src: url(/packages/thelounge-theme-monokai-console/clacon2.woff2) format("woff2");
+  src: url(/packages/thelounge-theme-cg/clacon2.woff2) format("woff2");
 }
 
 :root {
-  --color-black:       rgba(39,40,34,1);
-  --color-boldblack:   rgba(117,113,94,1);
-  --color-red:         rgba(249,38,114,1);
-  --color-boldred:     rgba(253,151,31,1);
-  --color-green:       rgba(166,226,46,1);
-  --color-boldgreen:   rgba(56,56,48,1);
-  --color-yellow:      rgba(244,191,117,1);
-  --color-boldyellow:  rgba(73,72,62,1);
-  --color-blue:        rgba(102,217,239,1);
-  --color-boldblue:    rgba(165,159,133,1);
-  --color-magenta:     rgba(174,129,255,1);
-  --color-boldmagenta: rgba(245,244,241,1);
-  --color-cyan:        rgba(161,239,228,1);
-  --color-boldcyan:    rgba(204,102,51,1);
-  --color-white:       rgba(248,248,242,1);
-  --color-boldwhite:   rgba(249,248,245,1);
-  --color-black-50:    rgba(39,40,34,0.5);
+  /* Curia Dark Blue Palette */
+  --color-black:       rgba(15, 23, 42, 1);     /* slate-900 - main dark bg */
+  --color-boldblack:   rgba(148, 163, 184, 1);  /* slate-400 - muted text */
+  --color-red:         rgba(239, 68, 68, 1);    /* red-500 - errors */
+  --color-boldred:     rgba(220, 38, 38, 1);    /* red-600 - bold errors */
+  --color-green:       rgba(34, 197, 94, 1);    /* green-500 - success */
+  --color-boldgreen:   rgba(30, 41, 59, 1);     /* slate-800 - code bg */
+  --color-yellow:      rgba(250, 204, 21, 1);   /* yellow-400 - warnings */
+  --color-boldyellow:  rgba(51, 65, 85, 1);     /* slate-700 - active bg */
+  --color-blue:        rgba(59, 130, 246, 1);   /* blue-500 - links/accent */
+  --color-boldblue:    rgba(99, 102, 241, 1);   /* indigo-500 - headings */
+  --color-magenta:     rgba(168, 85, 247, 1);   /* purple-500 - highlights */
+  --color-boldmagenta: rgba(248, 250, 252, 1);  /* slate-50 - bright text */
+  --color-cyan:        rgba(6, 182, 212, 1);    /* cyan-500 - info */
+  --color-boldcyan:    rgba(71, 85, 105, 1);    /* slate-600 - borders */
+  --color-white:       rgba(248, 250, 252, 1);  /* slate-50 - main text */
+  --color-boldwhite:   rgba(255, 255, 255, 1);  /* pure white - emphasis */
+  --color-black-50:    rgba(15, 23, 42, 0.5);   /* semi-transparent main bg */
 }
 
 :root {
-  --body-color: var(--color-white);
-  --window-bg-color: var(--color-black);
-  --body-color-muted: var(--color-boldblack);
-  --body-bg-color: var(--color-boldgreen);
-  --button-color: var(--color-green);
-  --button-text-color-hover: var(--color-black);
-  --overlay-bg-color: var(--color-black-50);
-  --link-color: var(--color-blue);
-  --window-heading-color: var(--color-boldblue);
-  --date-marker-color: var(--color-boldyellow);
-  --unread-marker-color: var(--color-boldcyan);
-  --highlight-bg-color: var(--color-boldgreen);
-  --highlight-border-color: var(--color-blue);
+  /* Curia Dark Blue Theme Layout */
+  --body-color: var(--color-white);             /* slate-50 text */
+  --window-bg-color: rgba(15, 23, 42, 1);      /* #0F172A - main Curia bg */
+  --body-color-muted: var(--color-boldblack);   /* slate-400 muted text */
+  --body-bg-color: rgba(30, 41, 59, 1);        /* #1E293B - slate-800 content area */
+  --button-color: rgba(59, 130, 246, 1);       /* blue-500 - Curia accent blue */
+  --button-text-color-hover: var(--color-white);
+  --overlay-bg-color: var(--color-black-50);    /* semi-transparent overlay */
+  --link-color: rgba(59, 130, 246, 1);         /* blue-500 - consistent links */
+  --window-heading-color: var(--color-boldblue); /* indigo-500 headings */
+  --date-marker-color: var(--color-yellow);     /* yellow-400 timestamps */
+  --unread-marker-color: rgba(59, 130, 246, 1); /* blue-500 notifications */
+  --highlight-bg-color: rgba(51, 65, 85, 0.8);  /* slate-700 subtle highlight */
+  --highlight-border-color: rgba(59, 130, 246, 1); /* blue-500 borders */
   --upload-progressbar-color: var(--button-color);
   --main-font: "Classic Console FA";
   --font-size: 16px;

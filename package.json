@@ -1,10 +1,10 @@
 {
-	"name": "thelounge-theme-monokai-console",
-	"version": "0.6.5",
-	"description": "Monokai Colors with Classic Console Neue font",
+	"name": "thelounge-theme-cg",
+	"version": "1.0.0",
+	"description": "Common Ground IRC theme based on Monokai Console with CG color palette",
 	"main": "package.json",
 	"thelounge": {
-		"name": "Monokai Console",
+		"name": "Common Ground",
 		"type": "theme",
 		"files": [
 			"clacon2.woff2"
@@ -12,10 +12,10 @@
 		"css": "theme.css"
 	},
 	"license": "MIT",
-	"homepage": "https://github.com/deejayy/thelounge-theme-monokai-console",
+	"homepage": "https://github.com/your-org/curia-irc-theme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/deejayy/thelounge-theme-monokai-console.git"
+		"url": "git+https://github.com/your-org/curia-irc-theme.git"
 	},
 	"keywords": [
 		"thelounge",
