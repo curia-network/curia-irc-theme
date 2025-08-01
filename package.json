@@ -1,6 +1,6 @@
 {
 	"name": "thelounge-theme-cg",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Common Ground IRC theme based on Monokai Console with CG color palette",
 	"main": "package.json",
 	"thelounge": {
