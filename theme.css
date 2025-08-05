@@ -45,6 +45,35 @@
   --line-height: 17px;
 }
 
+/* Light Theme Overrides */
+body[data-curia-theme="light"] {
+  /* Light Color Palette - Inverted from dark theme */
+  --color-black: rgba(248, 250, 252, 1);       /* slate-50 - light main bg */
+  --color-boldblack: rgba(100, 116, 139, 1);   /* slate-500 - readable muted text */
+  --color-white: rgba(15, 23, 42, 1);          /* slate-900 - dark text */
+  --color-boldwhite: rgba(0, 0, 0, 1);         /* pure black - emphasis */
+  --color-boldcyan: rgba(203, 213, 225, 1);    /* slate-300 - light borders */
+  --color-boldyellow: rgba(226, 232, 240, 1);  /* slate-200 - light active bg */
+  --color-boldgreen: rgba(241, 245, 249, 1);   /* slate-100 - light code bg */
+  --color-black-50: rgba(15, 23, 42, 0.1);     /* semi-transparent dark overlay */
+  
+  /* Light Theme Layout Colors */
+  --body-color: rgba(15, 23, 42, 1);           /* slate-900 - dark text on light */
+  --window-bg-color: rgba(255, 255, 255, 1);   /* pure white - main bg */
+  --body-color-muted: rgba(100, 116, 139, 1);  /* slate-500 - muted text */
+  --body-bg-color: rgba(248, 250, 252, 1);     /* slate-50 - light content area */
+  --button-color: rgba(59, 130, 246, 1);       /* blue-500 - keep Curia accent */
+  --button-text-color-hover: rgba(255, 255, 255, 1); /* white text on blue */
+  --overlay-bg-color: rgba(15, 23, 42, 0.1);   /* light dark overlay */
+  --link-color: rgba(59, 130, 246, 1);         /* blue-500 - consistent links */
+  --window-heading-color: rgba(30, 41, 59, 1); /* slate-800 - dark headings */
+  --date-marker-color: rgba(180, 83, 9, 1);    /* amber-700 - darker timestamps */
+  --unread-marker-color: rgba(59, 130, 246, 1); /* blue-500 - notifications */
+  --highlight-bg-color: rgba(226, 232, 240, 0.8); /* slate-200 - light highlight */
+  --highlight-border-color: rgba(59, 130, 246, 1); /* blue-500 - borders */
+  --upload-progressbar-color: var(--button-color);
+}
+
 body {
   font-family: var(--main-font);
   font-size: var(--font-size);
