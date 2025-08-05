@@ -1,7 +1,7 @@
 {
 	"name": "thelounge-theme-cg",
-	"version": "1.0.1",
-	"description": "Common Ground IRC theme based on Monokai Console with CG color palette",
+	"version": "1.1.0",
+	"description": "Common Ground IRC theme with dark/light mode support and CG color palette",
 	"main": "package.json",
 	"thelounge": {
 		"name": "Common Ground",
@@ -23,7 +23,9 @@
 		"monokai",
 		"monokai-console",
 		"classic-console",
-		"dark"
+		"dark",
+		"light",
+		"theme-switching"
 	],
 	"bugs": {
 		"url": "https://github.com/deejayy/thelounge-theme-monokai-console/issues"
