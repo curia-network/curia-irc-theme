@@ -710,3 +710,22 @@ textarea.input {
 #chat.colored-nicks .user.color-30 { color: var(--color-boldcyan); }
 #chat.colored-nicks .user.color-31 { color: var(--color-red); }
 #chat.colored-nicks .user.color-32 { color: var(--color-boldred); }
+
+/* Single Channel Mode Styles */
+/* Hide specific UI elements for focused single-channel experience */
+body[data-curia-mode="single"] #sidebar {
+  display: none !important;
+}
+
+body[data-curia-mode="single"] #viewport .lt {
+  display: none !important;
+}
+
+body[data-curia-mode="single"] #chat button.menu {
+  display: none !important;
+}
+
+/* Layout adjustment - chat area expands to fill available space */
+body[data-curia-mode="single"] #chat-container {
+  width: 100%;
+}
